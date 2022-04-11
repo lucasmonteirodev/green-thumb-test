@@ -6,26 +6,26 @@ Develop a page with full fidelity to its layout and functionality.
  
 Here are the technologies used in this project.
  
-HTML > JSP
-CSS > SASS
-JAVASCRIPT
+- HTML > JSP
+- CSS > SASS
+- JAVASCRIPT
  
 ## Services Used
  
-GITHUB
-FIGMA
-NODEJS
-GULP
+- GITHUB
+- FIGMA
+- NODEJS
+- GULP
  
 ## Getting started
  
--resources
-    npm install
-    npm run gulp
+> -resources
+    > npm install
+    > npm run gulp
  
 ## Links
  
-  - Link of deployed application: (if has been deployed)
+  - Link of deployed application: https://green-thumb-lucasmonteiro.netlify.app/
   - Repository: https://github.com/lucas-frontend/green-thumb-test
  
 ## Versioning
@@ -34,7 +34,7 @@ GULP
  
 ## Authors
  
-* **LUCAS MONTEIRO**: @lucas-frontend (https://github.com/lucas-frontend)
+* **LUCAS MONTEIRO**: @lucas-frontend (https://github.com/lucas-frontend) // LinkedIn (https://www.linkedin.com/in/lucasmonteirofront/)
  
  
 Thank you!

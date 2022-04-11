@@ -1,0 +1,1 @@
+"use strict";function scrollToSmoothly(l,w){var r=window.pageYOffset,t=null;null==w&&(w=500),l=+l,w=+w,window.requestAnimationFrame(function o(n){var i=n-(t=t||n);r<l?window.scrollTo(0,(l-r)*i/w+r):window.scrollTo(0,r-(r-l)*i/w),i<w?window.requestAnimationFrame(o):window.scrollTo(0,l)})}

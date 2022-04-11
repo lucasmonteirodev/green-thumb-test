@@ -1,0 +1,147 @@
+section#modulo1 {
+
+	height: 500px;
+	overflow: hidden;
+	position: relative;
+
+	@media (max-width: 767px) {
+        height: auto;
+        box-sizing: border-box;
+        padding-bottom: 25px;
+    }
+
+    .background-desktop {
+
+    	display: flex;
+    	align-items: center;
+    	justify-content: center;
+
+    	@media (max-width: 767px) {
+	        display: none;
+	    }
+
+    	.left-leaves {
+    		display: block;
+    		width: 100%;
+    		max-width: 861px;
+    	}
+
+    	.plantperson {
+    		display: block;
+    		width: 100%;
+    		max-width: 335px;
+    		margin: auto;
+    	}
+
+    	.right-leaves {
+    		display: block;
+    		width: 100%;
+    		max-width: 361px;
+    	}
+    }
+
+    .background-mobile {
+    	display: none;
+
+    	@media (max-width: 767px) {
+	        display: block;
+	    }
+
+	    .mobile-leaves {
+	    	display: block;
+    		width: 100%;
+	    }
+
+	    .box-plantperson {
+	    	padding: 0px 22px;
+	    	margin-top: -75px;
+
+	    	.mobile-plantperson {
+		    	display: block;
+		    	width: 100%;
+		    }
+	    }
+
+    }
+
+    .box-absolute {
+    	position: absolute;
+    	top: 0;
+    	left: 0;
+    	width: 100%;
+    	height: 100%;
+    	display: flex;
+    	align-items: center;
+
+    	@media (max-width: 767px) {
+	        display: block;
+	    }
+
+    	.texts {
+
+    		@media (max-width: 767px) {
+		        padding: 39.53px 35px 0px 39.53px;
+		    }
+
+	    	.link-logo {
+	    		text-decoration: none;
+	    		display: block;
+	    		width: 209px;
+
+	    		@media (max-width: 767px) {
+			        width: 161.78px;
+			    }
+
+	    		.logo {
+	    			display: block;
+	    			width: 100%;
+	    		}
+	    	}
+
+	    	.title {
+	    		max-width: 400px;
+				font-size: 70px;
+				line-height: 85px;
+				color: #FFFFFF;
+				margin-top: 42.54px;
+
+				@media (max-width: 767px) {
+			        font-size: 40px;
+					line-height: 49px;
+					margin-top: 31.98px;
+					max-width: 251px;
+			    }
+	    	}
+
+	    	.link-arrow-down {
+	    		display: block;
+	    		text-decoration: none;
+	    		width: 35px;
+	    		margin-top: 31px;
+	    		animation: arrow 2s infinite;
+
+	    		@media (max-width: 767px) {
+			        margin-top: 16px;
+			    }
+
+	    		.arrow-down {
+	    			display: block;
+	    			width: 100%;
+	    		}
+	    	}
+	    }
+    }
+}
+
+
+@keyframes arrow {
+	0%, 20%, 50%, 80%, 100% {
+		transform: translateY(0);
+	}
+	40% {
+		transform: translateY(-15px);
+	}
+	60% {
+		transform: translateY(-10px);
+	}
+}

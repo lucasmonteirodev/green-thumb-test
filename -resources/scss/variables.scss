@@ -1,0 +1,79 @@
+/* Variables */
+
+$dark-green: #15573F;
+$light-green: #75BC97;
+$salmon: #FD9872;
+$grey: #848484;
+$fontfamily: 'Montserrat', sans-serif;
+
+/* Dark Green */
+
+.dark-green-bg {
+	background-color: $dark-green;
+}
+
+.dark-green-color {
+	color: $dark-green;
+}
+
+/* Light Green */
+
+.light-green-bg {
+	background-color: $light-green;
+}
+
+.light-green-color {
+	color: $light-green;
+}
+
+/* Salmon Color */
+
+.salmon-color-bg {
+	background-color: $salmon;
+}
+
+.salmon-color {
+	color: $salmon;
+}
+
+/* Grey Color */
+
+.grey-color {
+	color: $grey;
+}
+
+/* Container */
+
+.container {
+	width: 100%;
+	max-width: 900px;
+	margin: auto;
+}
+
+/* Texts */
+
+.font-light {
+	font-family: $fontfamily;
+	font-style: normal;
+	font-weight: 300;
+
+	b {
+		font-weight: bold;
+	}
+}
+
+.font-normal {
+	font-family: $fontfamily;
+	font-style: normal;
+	font-weight: 400;
+
+	b {
+		font-weight: bold;
+	}
+}
+
+.font-bold {
+	font-family: $fontfamily;
+	font-style: normal;
+	font-weight: 700;
+}

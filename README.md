@@ -26,7 +26,7 @@ Here are the technologies used in this project.
 ## Links
  
   - Link of deployed application: https://green-thumb-lucasmonteiro.netlify.app/
-  - Repository: https://github.com/lucas-frontend/green-thumb-test
+  - Repository: https://github.com/lucasmonteirodev/green-thumb-test
  
 ## Versioning
  
@@ -34,7 +34,7 @@ Here are the technologies used in this project.
  
 ## Authors
  
-* **LUCAS MONTEIRO**: @lucas-frontend (https://github.com/lucas-frontend) // LinkedIn (https://www.linkedin.com/in/lucasmonteirofront/)
+* **LUCAS MONTEIRO**: @lucasmonteirodev (https://github.com/lucasmonteirodev) // LinkedIn (https://www.linkedin.com/in/lucasmonteirodev/)
  
  
 Thank you!
